@@ -1,6 +1,167 @@
 {
-  "last_updated": "2026-07-10T00:00:00+00:00",
+  "last_updated": "2026-07-10T07:10:20.297968+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 0,
-  "jobs": []
+  "count": 16,
+  "jobs": [
+    {
+      "id": "284dbf5727a6",
+      "issued_date": "29/06/2026",
+      "organisation": "NAINI AEROSPACE LIMITED",
+      "post": "OPERATOR SS (ELETRONICS MECHANIC)",
+      "appointment_method": "Recruitment",
+      "last_date": "17/07/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NAINI+AEROSPACE+LIMITED%22+%22OPERATOR+SS+%28ELETRONICS+MECHANIC%29%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "a3a5f99715e1",
+      "issued_date": "29/06/2026",
+      "organisation": "ICMR-NATIONAL INSTITUTE OF HEALTH RESEARCH (NIHR)",
+      "post": "ADMINISTRATIVE POST (LDC/UDC/ASSISTANT)",
+      "appointment_method": "Recruitment",
+      "last_date": "03/07/2026",
+      "department_url": "https://www.icmr.gov.in",
+      "search_url": "https://www.google.com/search?q=%22ICMR-NATIONAL+INSTITUTE+OF+HEALTH+RESEARCH+%28NIHR%29%22+%22ADMINISTRATIVE+POST+%28LDC%2FUDC%2FASSISTANT%29%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "96cc44ea64b9",
+      "issued_date": "29/06/2026",
+      "organisation": "NATIONAL COUNCIL FOR COOPERATIVE TRAINING (NCCT)",
+      "post": "LECTURERS",
+      "appointment_method": "Recruitment",
+      "last_date": "12/07/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+COUNCIL+FOR+COOPERATIVE+TRAINING+%28NCCT%29%22+%22LECTURERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "9bca239c0cad",
+      "issued_date": "22/06/2026",
+      "organisation": "NATIONAL ACADEMY OF DEFENCE PRODUCTION",
+      "post": "INSTRUCTIONAL DESIGNERS",
+      "appointment_method": "Recruitment",
+      "last_date": "04/07/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+ACADEMY+OF+DEFENCE+PRODUCTION%22+%22INSTRUCTIONAL+DESIGNERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "9d9353916d1d",
+      "issued_date": "22/06/2026",
+      "organisation": "SAINIK SCHOOL NAGROTA, JAMMU",
+      "post": "TGT ENGLISH & OHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "11/07/2026",
+      "department_url": "https://sainikschool.ncog.gov.in",
+      "search_url": "https://www.google.com/search?q=%22SAINIK+SCHOOL+NAGROTA%2C+JAMMU%22+%22TGT+ENGLISH+%26+OHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "dfe7dcc7e1f2",
+      "issued_date": "22/06/2026",
+      "organisation": "CENDECT KRISHI VIGYAN KENDRA",
+      "post": "SENIOR RESEARCH FELLOW",
+      "appointment_method": "Recruitment",
+      "last_date": "11/07/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22CENDECT+KRISHI+VIGYAN+KENDRA%22+%22SENIOR+RESEARCH+FELLOW%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "9ec3cdee9aed",
+      "issued_date": "08/06/2026",
+      "organisation": "NATIONAL POWER TRAINING INSTITUTE",
+      "post": "CONSULTANT & OFFICE ASSISTANT",
+      "appointment_method": "Recruitment",
+      "last_date": "24/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+POWER+TRAINING+INSTITUTE%22+%22CONSULTANT+%26+OFFICE+ASSISTANT%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "c8e9712095f3",
+      "issued_date": "08/06/2026",
+      "organisation": "SAINIK SCHOOL AMBIKAPUR",
+      "post": "TRAINED GRADUATE TEACHER",
+      "appointment_method": "Recruitment",
+      "last_date": "27/06/2026",
+      "department_url": "https://sainikschool.ncog.gov.in",
+      "search_url": "https://www.google.com/search?q=%22SAINIK+SCHOOL+AMBIKAPUR%22+%22TRAINED+GRADUATE+TEACHER%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "61a0049c3893",
+      "issued_date": "08/06/2026",
+      "organisation": "NATIONAL COMMISSION FOR MINORITIES EDUCATIONAL INSTITUTIONS",
+      "post": "DEPUTY SECRETARY OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "06/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+COMMISSION+FOR+MINORITIES+EDUCATIONAL+INSTITUTIONS%22+%22DEPUTY+SECRETARY+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "8fad987c79b7",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "SENIOR CONSULTANT DISASTER MANAGEMENT",
+      "appointment_method": "Deputation",
+      "last_date": "30/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22SENIOR+CONSULTANT+DISASTER+MANAGEMENT%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "baa7dfe84ad5",
+      "issued_date": "02/06/2026",
+      "organisation": "NALCO NATIONAL ALUMINIUM COMPANY LIMITED",
+      "post": "NON EXECUTIVE PERSONNEL",
+      "appointment_method": "Recruitment",
+      "last_date": "10/06/2026",
+      "department_url": "https://nalcoindia.com",
+      "search_url": "https://www.google.com/search?q=%22NALCO+NATIONAL+ALUMINIUM+COMPANY+LIMITED%22+%22NON+EXECUTIVE+PERSONNEL%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "ce321973a49f",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "CONSULTANT",
+      "appointment_method": "Deputation",
+      "last_date": "20/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22CONSULTANT%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "e9824ed0b9ae",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "SENIOR CONSULTANT COMMUNITY BASED DISASTER RISK REDUCTION",
+      "appointment_method": "Deputation",
+      "last_date": "20/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22SENIOR+CONSULTANT+COMMUNITY+BASED+DISASTER+RISK+REDUCTION%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "9a1212ad17bb",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "SENIOR CONSULTANT MITIGATION OF FLOODS",
+      "appointment_method": "Deputation",
+      "last_date": "20/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22SENIOR+CONSULTANT+MITIGATION+OF+FLOODS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "69ded1279e36",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "SENIOR CONSULTANT DISASTER RISK FINANCING AND FINANCIAL MANAGEMENT",
+      "appointment_method": "Deputation",
+      "last_date": "20/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22SENIOR+CONSULTANT+DISASTER+RISK+FINANCING+AND+FINANCIAL+MANAGEMENT%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "549d91ca8623",
+      "issued_date": "02/06/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "SENIOR CONSULTANT TECHNICAL SUPPORT RECOVERY PROGRAMMES",
+      "appointment_method": "Deputation",
+      "last_date": "20/06/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22SENIOR+CONSULTANT+TECHNICAL+SUPPORT+RECOVERY+PROGRAMMES%22+recruitment+notification+pdf"
+    }
+  ]
 }
