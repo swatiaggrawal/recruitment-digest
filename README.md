@@ -57,35 +57,6 @@ this order, cheapest first:
 If nothing suitable turns up, the listing still gets a "Find
 notification" search button as a fallback.
 
-## Setup
-
-1. **Create a new GitHub repo** and push this folder to it as the repo root:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-
-2. **Enable Pages** — repo → *Settings → Pages* → Source: "Deploy from a
-   branch" → Branch: `main`, folder: `/docs` → Save. Your site will be at
-   `https://<your-username>.github.io/<repo-name>/`.
-
-3. **Allow the workflow to commit** — repo → *Settings → Actions →
-   General* → under "Workflow permissions" choose "Read and write
-   permissions" → Save.
-
-4. **Run it once manually** — *Actions* tab → "Update job listings" →
-   "Run workflow." Confirm `docs/data.json` now has real entries (not
-   `"count": 0`).
-
-After that, it updates itself daily. Adjust the schedule in
-`.github/workflows/update.yml` if you'd rather it run weekly or at a
-different time — the cron line is commented.
-
 ## Running it locally
 
 ```bash
