@@ -1,75 +1,116 @@
 # Recruitment Digest
 
-An unofficial, auto-updating mirror of the Employment News "All Jobs" listing
-with a readable UI, a link to each department's site (where known), and a
-"Find notification" search link for everything else.
+A cleaner, self-updating mirror of the Government of India's [Employment
+News](https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All) job listings —
+searchable, sortable, and with an actual link to follow for every posting.
 
-## How it works
+The official site lists jobs in a plain table with no way to search, sort,
+or click through to the actual notification. This project scrapes that
+table daily, figures out where each posting actually leads, and serves it
+as a proper page.
 
-- `scraper/scrape.py` fetches the listing and writes `docs/data.json`.
-- `.github/workflows/update.yml` runs that script once a day via GitHub
-  Actions and commits the updated JSON.
-- `docs/index.html` + `style.css` + `app.js` is a static page that reads
-  `data.json` and renders it — search, sort, and "closing soon" filters
-  included. GitHub Pages serves this folder directly, no server needed.
+## What it does
 
-## Setup (10 minutes)
+- **Refreshes automatically** — a GitHub Actions workflow re-scrapes the
+  listing once a day and commits the update, no server required.
+- **Links you somewhere useful** — every listing gets a link to the
+  hiring department's official site (resolved automatically, see below),
+  plus a targeted search link that surfaces the actual notification PDF.
+- **Surfaces what matters** — sort by closing date, filter to "closing
+  soon," and search by organisation or post, instead of scrolling a huge
+  static table.
 
-1. **Create a new GitHub repo** and push everything in this folder to it.
-2. **Enable GitHub Pages**: repo → Settings → Pages → "Deploy from a branch"
-   → branch `main`, folder `/docs` → Save. Your site will appear at
+## How it's built
+
+```
+scraper/scrape.py   →   docs/data.json   →   docs/index.html (+ style.css, app.js)
+     ↑                                              ↑
+runs daily via                                 static page,
+GitHub Actions                                 served by GitHub Pages
+```
+
+- **`scraper/scrape.py`** fetches the listing, parses each row (organisation,
+  post, dates, appointment method), and resolves a department link and a
+  search link for it.
+- **`docs/`** is a plain HTML/CSS/JS page — no build step, no framework —
+  that reads `data.json` and renders it.
+- **`.github/workflows/update.yml`** runs the scraper on a schedule and
+  pushes the refreshed data back to the repo.
+
+### How department links get resolved
+
+Each organisation's official site is found automatically, checked in
+this order, cheapest first:
+
+1. **`scraper/org_cache.json`** — anything already resolved on a previous
+   run. Auto-generated, grows over time, committed back by the workflow —
+   so a given organisation is only ever looked up once.
+2. **`scraper/org_mapping.json`** — a small curated list for common,
+   recurring organisations (SSC, UPSC, Railways, etc.), which always wins
+   as a guaranteed-correct override.
+3. **Live search** — for anything new, it searches
+   `"<organisation>" official website` and prefers `.gov.in` / `.nic.in`
+   / `.ac.in` / `.org.in` / `.res.in` / `.co.in` domains. Whatever it
+   finds gets written into the cache, so it's a one-time cost per
+   organisation.
+
+If nothing suitable turns up, the listing still gets a "Find
+notification" search button as a fallback.
+
+## Setup
+
+1. **Create a new GitHub repo** and push this folder to it as the repo root:
+
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   git push -u origin main
+   ```
+
+2. **Enable Pages** — repo → *Settings → Pages* → Source: "Deploy from a
+   branch" → Branch: `main`, folder: `/docs` → Save. Your site will be at
    `https://<your-username>.github.io/<repo-name>/`.
-3. **Enable Actions**: repo → Settings → Actions → General → make sure
-   "Allow all actions" is selected, and under Workflow permissions choose
-   "Read and write permissions" (needed so the workflow can commit
-   `data.json` back to the repo).
-4. **Run it once manually**: repo → Actions tab → "Update job listings" →
-   "Run workflow". Check that it completes and that `docs/data.json` in
-   the repo now has real entries (not `"count": 0`).
-5. After that it runs automatically every day at 03:00 UTC — edit the
-   cron line in `update.yml` if you want it more/less often (e.g. weekly:
-   `"0 3 * * 1"` for every Monday).
 
-## If the scraper fails
+3. **Allow the workflow to commit** — repo → *Settings → Actions →
+   General* → under "Workflow permissions" choose "Read and write
+   permissions" → Save.
 
-Government site markup changes occasionally. The scraper finds the table
-by matching header text ("ORGANISATION" + "POST") rather than a hardcoded
-ID, so small markup tweaks shouldn't break it — but if the workflow run
-fails, open the Actions log, find the printed error, and check
-`find_jobs_table()` / `get_column_indexes()` in `scraper/scrape.py` against
-the current page HTML.
+4. **Run it once manually** — *Actions* tab → "Update job listings" →
+   "Run workflow." Confirm `docs/data.json` now has real entries (not
+   `"count": 0`).
 
-## How department links get resolved
+After that, it updates itself daily. Adjust the schedule in
+`.github/workflows/update.yml` if you'd rather it run weekly or at a
+different time — the cron line is commented.
 
-Instead of relying only on a hand-maintained list, the scraper resolves
-each organisation's official site automatically, in this order:
-
-1. **`scraper/org_cache.json`** — organisations already resolved on a
-   previous run. This file is auto-generated and grows over time; the
-   workflow commits it back to the repo after every run, so lookups only
-   ever happen once per organisation.
-2. **`scraper/org_mapping.json`** — a small curated substring-match list
-   for common recurring organisations (SSC, UPSC, Railways, etc.), useful
-   as a fast, guaranteed-correct override.
-3. **Live search** — for anything not in either file, it searches
-   `"<organisation>" official website` and prefers results on
-   `.gov.in` / `.nic.in` / `.ac.in` / `.org.in` / `.res.in` / `.co.in`
-   domains. Whatever it finds (or doesn't) gets cached, so this only
-   costs time on an organisation's *first* appearance.
-
-If a search comes back wrong for some organisation, just fix the URL
-directly in `org_cache.json` (or add a proper entry to
-`org_mapping.json`, which takes priority next time the cache is cleared)
-— either way it'll stick from then on. Nothing found → the row just
-shows the "Find notification" search button instead.
-
-## Local testing
+## Running it locally
 
 ```bash
 cd scraper
 pip install -r requirements.txt
-python scrape.py          # writes ../docs/data.json
+python scrape.py            # writes ../docs/data.json
+
 cd ../docs
-python -m http.server 8000
-# open http://localhost:8000
+python -m http.server 8000  # open http://localhost:8000
 ```
+
+## If a listing looks wrong
+
+- **Scraper stops finding rows at all** — the site's markup probably
+  changed. `find_jobs_table()` and `get_column_indexes()` in
+  `scraper/scrape.py` locate columns by header text rather than a fixed
+  ID, so small changes shouldn't break it, but check the Actions log for
+  the printed error if a run fails.
+- **A department link is wrong for one organisation** — edit the entry
+  directly in `scraper/org_cache.json` (or add a proper override to
+  `scraper/org_mapping.json`, which always takes priority) — it'll stick
+  from then on.
+
+## Disclaimer
+
+This is an independent, unofficial project. Data is sourced from
+[Employment News](https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All);
+always verify details against the original notification before applying.
