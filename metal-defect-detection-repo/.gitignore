@@ -1,0 +1,27 @@
+# Data
+data/
+*.zip
+*.h5
+*.keras
+*.pkl
+
+# Kaggle credentials
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Colab mount artifacts
+drive/

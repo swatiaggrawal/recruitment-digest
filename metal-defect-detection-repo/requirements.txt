@@ -1,0 +1,9 @@
+numpy
+pandas
+tensorflow>=2.12
+scikit-learn
+scikit-image
+matplotlib
+seaborn
+Pillow
+kaggle
