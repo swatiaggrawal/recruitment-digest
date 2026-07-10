@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recruitment Digest — Government Job Listings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title">
+      <span class="eyebrow">A Quieter Notice Board</span>
+      <h1>Recruitment Digest</h1>
+    </div>
+    <div class="masthead-meta">
+      <span id="updated-text">Loading…</span>
+      <span class="divider">·</span>
+      <span id="count-text"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <div class="search-wrap">
+      <input id="search-input" type="text" placeholder="Search by organisation or post…" autocomplete="off">
+    </div>
+    <div class="filter-group" role="group" aria-label="Filter by urgency">
+      <button class="chip chip-all active" data-filter="all">All</button>
+      <button class="chip chip-urgent" data-filter="urgent">Closing soon</button>
+      <button class="chip chip-open" data-filter="open">Open</button>
+      <button class="chip chip-unknown" data-filter="unknown">No date</button>
+    </div>
+    <div class="sort-wrap">
+      <label for="sort-select">Sort</label>
+      <select id="sort-select">
+        <option value="deadline">Closing date</option>
+        <option value="issued">Recently posted</option>
+        <option value="org">Organisation A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="empty-state" class="empty-state" hidden>
+    <p>No listings match that search.</p>
+  </div>
+
+  <ul id="job-list" class="job-list"></ul>
+</main>
+
+<footer>
+  <p>Data sourced from <a href="https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All" target="_blank" rel="noopener">Employment News</a>, refreshed automatically. This is an unofficial, independent mirror — always verify details against the original notification before applying.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
