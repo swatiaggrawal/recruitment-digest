@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-07-20T06:23:38.256243+00:00",
+  "last_updated": "2026-07-21T05:57:07.882323+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 7,
+  "count": 11,
   "jobs": [
+    {
+      "id": "86c2900d8889",
+      "issued_date": "20/07/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT UNIVERSITY",
+      "post": "LEAD CONSULTANT (POLICY PLANNING) & OTHERS",
+      "appointment_method": "Recruitment/Deputation",
+      "last_date": "08/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+UNIVERSITY%22+%22LEAD+CONSULTANT+%28POLICY+PLANNING%29+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "f741a42e9074",
+      "issued_date": "20/07/2026",
+      "organisation": "M/O DEFENCE D/O DEFENCE PRODUCTION, CONTROLLERATE OF QUALITY ASSURANCE (HEAVY VEHICLES",
+      "post": "TECHNICIAN (SEMI-SKILLED)",
+      "appointment_method": "Recruitment/Deputation",
+      "last_date": "22/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22M%2FO+DEFENCE+D%2FO+DEFENCE+PRODUCTION%2C+CONTROLLERATE+OF+QUALITY+ASSURANCE+%28HEAVY+VEHICLES%22+%22TECHNICIAN+%28SEMI-SKILLED%29%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "b6e2c5bad554",
+      "issued_date": "20/07/2026",
+      "organisation": "CENTRAL ADOPTION RESOURCE AUTHORITY",
+      "post": "DEPUTY DIRECTOR (PRG.) & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "18/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22CENTRAL+ADOPTION+RESOURCE+AUTHORITY%22+%22DEPUTY+DIRECTOR+%28PRG.%29+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "bdd8cc34e83c",
+      "issued_date": "20/07/2026",
+      "organisation": "ANDAMAN AND NICOBAR ADMINISTRATION SECRETARIAT",
+      "post": "SUPERINTENDING ENGINEER (CIVIL)",
+      "appointment_method": "Recruitment",
+      "last_date": "02/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22ANDAMAN+AND+NICOBAR+ADMINISTRATION+SECRETARIAT%22+%22SUPERINTENDING+ENGINEER+%28CIVIL%29%22+recruitment+notification+pdf"
+    },
     {
       "id": "a3bfafec7e07",
       "issued_date": "13/07/2026",
