@@ -1,8 +1,18 @@
 {
-  "last_updated": "2026-07-26T06:12:03.673375+00:00",
+  "last_updated": "2026-07-27T06:37:17.518373+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 11,
+  "count": 12,
   "jobs": [
+    {
+      "id": "96b0a9ff9fb1",
+      "issued_date": "27/07/2026",
+      "organisation": "FOOTWEAR DESIGN & DEVELOPMENT INSTITUTE , M/O COMMERCE & INDUSTRY",
+      "post": "CHIEF ENGINEER / SUPERINTENDING ENGINEER",
+      "appointment_method": "Recruitment",
+      "last_date": "16/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22FOOTWEAR+DESIGN+%26+DEVELOPMENT+INSTITUTE+%2C+M%2FO+COMMERCE+%26+INDUSTRY%22+%22CHIEF+ENGINEER+%2F+SUPERINTENDING+ENGINEER%22+recruitment+notification+pdf"
+    },
     {
       "id": "86c2900d8889",
       "issued_date": "20/07/2026",
