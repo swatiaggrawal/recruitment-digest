@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-08-02T06:08:51.034646+00:00",
+  "last_updated": "2026-08-03T06:31:07.308683+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 12,
+  "count": 11,
   "jobs": [
+    {
+      "id": "43a29e02cb0e",
+      "issued_date": "03/08/2026",
+      "organisation": "FLUID CONTROL RESEARCH INSTITUTE , M/O HEAVY INDUSTRIES",
+      "post": "RESEARCH ENGINEER & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "24/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22FLUID+CONTROL+RESEARCH+INSTITUTE+%2C+M%2FO+HEAVY+INDUSTRIES%22+%22RESEARCH+ENGINEER+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "50498757abe1",
+      "issued_date": "03/08/2026",
+      "organisation": "NATIONAL COUNCIL FOR COOPERATIVE TRAINING (NCCT",
+      "post": "CONSULTANT (LEGAL)",
+      "appointment_method": "Recruitment",
+      "last_date": "23/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+COUNCIL+FOR+COOPERATIVE+TRAINING+%28NCCT%22+%22CONSULTANT+%28LEGAL%29%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "ac4d2b82ee4c",
+      "issued_date": "03/08/2026",
+      "organisation": "DEFENCE INNOVATION ORGANISATION, INNOVATIONS FOR DEFENCE EXCELLENCE, D/O DEFENCE PRODUCTION, M/O DEFENCE",
+      "post": "PROGRAM DIRECTOR (PROJECT MANAGEMENT) & OTHERS]",
+      "appointment_method": "Recruitment",
+      "last_date": "10/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22DEFENCE+INNOVATION+ORGANISATION%2C+INNOVATIONS+FOR+DEFENCE+EXCELLENCE%2C+D%2FO+DEFENCE+PRODUCTION%2C+M%2FO+DEFENCE%22+%22PROGRAM+DIRECTOR+%28PROJECT+MANAGEMENT%29+%26+OTHERS%5D%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "609fc1f5ca03",
+      "issued_date": "03/08/2026",
+      "organisation": "MINERAL EXPLORATION & CONSULTANCY LIMITED",
+      "post": "EXECUTIVE TRAINEE (ELECTRICAL) & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "14/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22MINERAL+EXPLORATION+%26+CONSULTANCY+LIMITED%22+%22EXECUTIVE+TRAINEE+%28ELECTRICAL%29+%26+OTHERS%22+recruitment+notification+pdf"
+    },
     {
       "id": "96b0a9ff9fb1",
       "issued_date": "27/07/2026",
@@ -62,56 +102,6 @@
       "last_date": "11/09/2026",
       "department_url": null,
       "search_url": "https://www.google.com/search?q=%22LAL+BAHADUR+SHASTRI+NATIONAL+ACADEMY+OF+ADMINISTRATION+%28LBSNAA%29%2C+D%2FO+PERSONNEL+%26+TRAINING%22+%22ADMINISTRATIVE+OFFICER+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "9574be99e204",
-      "issued_date": "13/07/2026",
-      "organisation": "NATIONAL ACADEMY OF DEFENCE PRODUCTION",
-      "post": "LIBRARY AND INFORMATION ASSISTANT",
-      "appointment_method": "Recruitment",
-      "last_date": "24/07/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NATIONAL+ACADEMY+OF+DEFENCE+PRODUCTION%22+%22LIBRARY+AND+INFORMATION+ASSISTANT%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "f4f82f344cf0",
-      "issued_date": "13/07/2026",
-      "organisation": "M/O FINANCE, DEPARTMENT OF REVENUE TAX POLICY RESEARCH UNIT",
-      "post": "RESEARCH FELLOW",
-      "appointment_method": "Recruitment",
-      "last_date": "31/07/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22M%2FO+FINANCE%2C+DEPARTMENT+OF+REVENUE+TAX+POLICY+RESEARCH+UNIT%22+%22RESEARCH+FELLOW%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "284dbf5727a6",
-      "issued_date": "29/06/2026",
-      "organisation": "NAINI AEROSPACE LIMITED",
-      "post": "OPERATOR SS (ELETRONICS MECHANIC)",
-      "appointment_method": "Recruitment",
-      "last_date": "17/07/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NAINI+AEROSPACE+LIMITED%22+%22OPERATOR+SS+%28ELETRONICS+MECHANIC%29%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "96cc44ea64b9",
-      "issued_date": "29/06/2026",
-      "organisation": "NATIONAL COUNCIL FOR COOPERATIVE TRAINING (NCCT)",
-      "post": "LECTURERS",
-      "appointment_method": "Recruitment",
-      "last_date": "12/07/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NATIONAL+COUNCIL+FOR+COOPERATIVE+TRAINING+%28NCCT%29%22+%22LECTURERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "9d9353916d1d",
-      "issued_date": "22/06/2026",
-      "organisation": "SAINIK SCHOOL NAGROTA, JAMMU",
-      "post": "TGT ENGLISH & OHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "11/07/2026",
-      "department_url": "https://sainikschool.ncog.gov.in",
-      "search_url": "https://www.google.com/search?q=%22SAINIK+SCHOOL+NAGROTA%2C+JAMMU%22+%22TGT+ENGLISH+%26+OHERS%22+recruitment+notification+pdf"
     },
     {
       "id": "61a0049c3893",
