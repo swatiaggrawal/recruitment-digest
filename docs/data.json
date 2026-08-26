@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-08-24T04:00:16.340444+00:00",
+  "last_updated": "2026-08-26T03:57:54.146226+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 11,
+  "count": 10,
   "jobs": [
+    {
+      "id": "1302633f8dc3",
+      "issued_date": "24/08/2026",
+      "organisation": "INDO-RUSSIAN RIFLES PVT LTD, D/O DEFENCE",
+      "post": "CHIEF EXECUTIVE OFFICER/ MANAGING DIRECTOR",
+      "appointment_method": "Recruitment",
+      "last_date": "11/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22INDO-RUSSIAN+RIFLES+PVT+LTD%2C+D%2FO+DEFENCE%22+%22CHIEF+EXECUTIVE+OFFICER%2F+MANAGING+DIRECTOR%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "d8bdec121cee",
+      "issued_date": "24/08/2026",
+      "organisation": "SAINIK SCHOOL AMBIKAPUR",
+      "post": "LABORATORY ASSISTANT (BIOLOGY) & OTHERS",
+      "appointment_method": "Contractual",
+      "last_date": "12/09/2026",
+      "department_url": "https://sainikschool.ncog.gov.in",
+      "search_url": "https://www.google.com/search?q=%22SAINIK+SCHOOL+AMBIKAPUR%22+%22LABORATORY+ASSISTANT+%28BIOLOGY%29+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "1a2b10054e8d",
+      "issued_date": "24/08/2026",
+      "organisation": "BRIC- NATIONAL INSTITUTE OF ANIMAL BIOTECHNOLOGY",
+      "post": "SCIENTIST-B & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "11/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22BRIC-+NATIONAL+INSTITUTE+OF+ANIMAL+BIOTECHNOLOGY%22+%22SCIENTIST-B+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "f345481baaf3",
+      "issued_date": "24/08/2026",
+      "organisation": "SANJAY GANDHI POST GRADUATE INSTITUTE OF MEDICAL SCIENCES",
+      "post": "GENERAL PEDIATRICS & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "31/08/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22SANJAY+GANDHI+POST+GRADUATE+INSTITUTE+OF+MEDICAL+SCIENCES%22+%22GENERAL+PEDIATRICS+%26+OTHERS%22+recruitment+notification+pdf"
+    },
     {
       "id": "43a29e02cb0e",
       "issued_date": "03/08/2026",
@@ -24,16 +64,6 @@
       "search_url": "https://www.google.com/search?q=%22NATIONAL+COUNCIL+FOR+COOPERATIVE+TRAINING+%28NCCT%22+%22CONSULTANT+%28LEGAL%29%22+recruitment+notification+pdf"
     },
     {
-      "id": "ac4d2b82ee4c",
-      "issued_date": "03/08/2026",
-      "organisation": "DEFENCE INNOVATION ORGANISATION, INNOVATIONS FOR DEFENCE EXCELLENCE, D/O DEFENCE PRODUCTION, M/O DEFENCE",
-      "post": "PROGRAM DIRECTOR (PROJECT MANAGEMENT) & OTHERS]",
-      "appointment_method": "Recruitment",
-      "last_date": "10/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22DEFENCE+INNOVATION+ORGANISATION%2C+INNOVATIONS+FOR+DEFENCE+EXCELLENCE%2C+D%2FO+DEFENCE+PRODUCTION%2C+M%2FO+DEFENCE%22+%22PROGRAM+DIRECTOR+%28PROJECT+MANAGEMENT%29+%26+OTHERS%5D%22+recruitment+notification+pdf"
-    },
-    {
       "id": "609fc1f5ca03",
       "issued_date": "03/08/2026",
       "organisation": "MINERAL EXPLORATION & CONSULTANCY LIMITED",
@@ -44,16 +74,6 @@
       "search_url": "https://www.google.com/search?q=%22MINERAL+EXPLORATION+%26+CONSULTANCY+LIMITED%22+%22EXECUTIVE+TRAINEE+%28ELECTRICAL%29+%26+OTHERS%22+recruitment+notification+pdf"
     },
     {
-      "id": "96b0a9ff9fb1",
-      "issued_date": "27/07/2026",
-      "organisation": "FOOTWEAR DESIGN & DEVELOPMENT INSTITUTE , M/O COMMERCE & INDUSTRY",
-      "post": "CHIEF ENGINEER / SUPERINTENDING ENGINEER",
-      "appointment_method": "Recruitment",
-      "last_date": "16/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22FOOTWEAR+DESIGN+%26+DEVELOPMENT+INSTITUTE+%2C+M%2FO+COMMERCE+%26+INDUSTRY%22+%22CHIEF+ENGINEER+%2F+SUPERINTENDING+ENGINEER%22+recruitment+notification+pdf"
-    },
-    {
       "id": "86c2900d8889",
       "issued_date": "20/07/2026",
       "organisation": "NATIONAL DISASTER MANAGEMENT UNIVERSITY",
@@ -62,26 +82,6 @@
       "last_date": "08/08/2026",
       "department_url": null,
       "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+UNIVERSITY%22+%22LEAD+CONSULTANT+%28POLICY+PLANNING%29+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "f741a42e9074",
-      "issued_date": "20/07/2026",
-      "organisation": "M/O DEFENCE D/O DEFENCE PRODUCTION, CONTROLLERATE OF QUALITY ASSURANCE (HEAVY VEHICLES",
-      "post": "TECHNICIAN (SEMI-SKILLED)",
-      "appointment_method": "Recruitment/Deputation",
-      "last_date": "22/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22M%2FO+DEFENCE+D%2FO+DEFENCE+PRODUCTION%2C+CONTROLLERATE+OF+QUALITY+ASSURANCE+%28HEAVY+VEHICLES%22+%22TECHNICIAN+%28SEMI-SKILLED%29%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "b6e2c5bad554",
-      "issued_date": "20/07/2026",
-      "organisation": "CENTRAL ADOPTION RESOURCE AUTHORITY",
-      "post": "DEPUTY DIRECTOR (PRG.) & OTHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "18/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22CENTRAL+ADOPTION+RESOURCE+AUTHORITY%22+%22DEPUTY+DIRECTOR+%28PRG.%29+%26+OTHERS%22+recruitment+notification+pdf"
     },
     {
       "id": "bdd8cc34e83c",
@@ -102,16 +102,6 @@
       "last_date": "11/09/2026",
       "department_url": null,
       "search_url": "https://www.google.com/search?q=%22LAL+BAHADUR+SHASTRI+NATIONAL+ACADEMY+OF+ADMINISTRATION+%28LBSNAA%29%2C+D%2FO+PERSONNEL+%26+TRAINING%22+%22ADMINISTRATIVE+OFFICER+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "61a0049c3893",
-      "issued_date": "08/06/2026",
-      "organisation": "NATIONAL COMMISSION FOR MINORITIES EDUCATIONAL INSTITUTIONS",
-      "post": "DEPUTY SECRETARY OTHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "06/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NATIONAL+COMMISSION+FOR+MINORITIES+EDUCATIONAL+INSTITUTIONS%22+%22DEPUTY+SECRETARY+OTHERS%22+recruitment+notification+pdf"
     }
   ]
 }
