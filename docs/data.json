@@ -1,8 +1,28 @@
 {
-  "last_updated": "2026-08-30T09:07:47.017804+00:00",
+  "last_updated": "2026-08-31T09:36:27.915128+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 10,
+  "count": 12,
   "jobs": [
+    {
+      "id": "07eb052297fd",
+      "issued_date": "31/08/2026",
+      "organisation": "NATIONAL DISASTER MANAGEMENT AUTHORITY",
+      "post": "YOUNG CONSULTANT (FOREST FIRE RISK MANAGEMENT)",
+      "appointment_method": "Deputation",
+      "last_date": "18/10/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+AUTHORITY%22+%22YOUNG+CONSULTANT+%28FOREST+FIRE+RISK+MANAGEMENT%29%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "189e2ced16d7",
+      "issued_date": "31/08/2026",
+      "organisation": "NATIONAL BOARD OF EXAMINATIONS IN MEDICAL SCIENCES",
+      "post": "EXECUTIVE DIRECTOR",
+      "appointment_method": "Recruitment",
+      "last_date": "30/10/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+BOARD+OF+EXAMINATIONS+IN+MEDICAL+SCIENCES%22+%22EXECUTIVE+DIRECTOR%22+recruitment+notification+pdf"
+    },
     {
       "id": "1302633f8dc3",
       "issued_date": "24/08/2026",
