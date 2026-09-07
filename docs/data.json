@@ -1,8 +1,28 @@
 {
-  "last_updated": "2026-09-06T07:49:05.923395+00:00",
+  "last_updated": "2026-09-07T08:10:18.965294+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 12,
+  "count": 14,
   "jobs": [
+    {
+      "id": "1cb93fd248b6",
+      "issued_date": "07/09/2026",
+      "organisation": "RAMAGUNDAM FERTILIZERS AND CHEMICALS LIMITED",
+      "post": "ENGINEER & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "24/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22RAMAGUNDAM+FERTILIZERS+AND+CHEMICALS+LIMITED%22+%22ENGINEER+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "530ce4393b52",
+      "issued_date": "07/09/2026",
+      "organisation": "NATIONAL INSTITUTE OF PHARMACEUTICAL EDUCATION AND RESEARCH KOLKATA, M/O CHEMICAL AND FERTILIZERS",
+      "post": "PROFESSOR",
+      "appointment_method": "Recruitment",
+      "last_date": "17/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NATIONAL+INSTITUTE+OF+PHARMACEUTICAL+EDUCATION+AND+RESEARCH+KOLKATA%2C+M%2FO+CHEMICAL+AND+FERTILIZERS%22+%22PROFESSOR%22+recruitment+notification+pdf"
+    },
     {
       "id": "07eb052297fd",
       "issued_date": "31/08/2026",
