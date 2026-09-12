@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-09-11T07:57:42.761992+00:00",
+  "last_updated": "2026-09-12T07:50:39.221045+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 14,
+  "count": 12,
   "jobs": [
+    {
+      "id": "8d5e128249a8",
+      "issued_date": "12/09/2026",
+      "organisation": "MINERAL EXPLORATION AND CONSULTANCY LIMITED",
+      "post": "ACCOUNTANT & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "11/10/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22MINERAL+EXPLORATION+AND+CONSULTANCY+LIMITED%22+%22ACCOUNTANT+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "21b6292f386a",
+      "issued_date": "12/09/2026",
+      "organisation": "DNS REGIONAL INSTITUTE OF COOPERATIVE MANAGEMENT",
+      "post": "LECTURER",
+      "appointment_method": "Recruitment",
+      "last_date": "27/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22DNS+REGIONAL+INSTITUTE+OF+COOPERATIVE+MANAGEMENT%22+%22LECTURER%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "173fae19b862",
+      "issued_date": "12/09/2026",
+      "organisation": "NALANDA UNIVERSITY",
+      "post": "TEACHING POSITIONS",
+      "appointment_method": "Recruitment",
+      "last_date": "15/09/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22NALANDA+UNIVERSITY%22+%22TEACHING+POSITIONS%22+recruitment+notification+pdf"
+    },
     {
       "id": "1cb93fd248b6",
       "issued_date": "07/09/2026",
@@ -72,56 +102,6 @@
       "last_date": "11/09/2026",
       "department_url": null,
       "search_url": "https://www.google.com/search?q=%22BRIC-+NATIONAL+INSTITUTE+OF+ANIMAL+BIOTECHNOLOGY%22+%22SCIENTIST-B+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "f345481baaf3",
-      "issued_date": "24/08/2026",
-      "organisation": "SANJAY GANDHI POST GRADUATE INSTITUTE OF MEDICAL SCIENCES",
-      "post": "GENERAL PEDIATRICS & OTHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "31/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22SANJAY+GANDHI+POST+GRADUATE+INSTITUTE+OF+MEDICAL+SCIENCES%22+%22GENERAL+PEDIATRICS+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "43a29e02cb0e",
-      "issued_date": "03/08/2026",
-      "organisation": "FLUID CONTROL RESEARCH INSTITUTE , M/O HEAVY INDUSTRIES",
-      "post": "RESEARCH ENGINEER & OTHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "24/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22FLUID+CONTROL+RESEARCH+INSTITUTE+%2C+M%2FO+HEAVY+INDUSTRIES%22+%22RESEARCH+ENGINEER+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "50498757abe1",
-      "issued_date": "03/08/2026",
-      "organisation": "NATIONAL COUNCIL FOR COOPERATIVE TRAINING (NCCT",
-      "post": "CONSULTANT (LEGAL)",
-      "appointment_method": "Recruitment",
-      "last_date": "23/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NATIONAL+COUNCIL+FOR+COOPERATIVE+TRAINING+%28NCCT%22+%22CONSULTANT+%28LEGAL%29%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "609fc1f5ca03",
-      "issued_date": "03/08/2026",
-      "organisation": "MINERAL EXPLORATION & CONSULTANCY LIMITED",
-      "post": "EXECUTIVE TRAINEE (ELECTRICAL) & OTHERS",
-      "appointment_method": "Recruitment",
-      "last_date": "14/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22MINERAL+EXPLORATION+%26+CONSULTANCY+LIMITED%22+%22EXECUTIVE+TRAINEE+%28ELECTRICAL%29+%26+OTHERS%22+recruitment+notification+pdf"
-    },
-    {
-      "id": "86c2900d8889",
-      "issued_date": "20/07/2026",
-      "organisation": "NATIONAL DISASTER MANAGEMENT UNIVERSITY",
-      "post": "LEAD CONSULTANT (POLICY PLANNING) & OTHERS",
-      "appointment_method": "Recruitment/Deputation",
-      "last_date": "08/08/2026",
-      "department_url": null,
-      "search_url": "https://www.google.com/search?q=%22NATIONAL+DISASTER+MANAGEMENT+UNIVERSITY%22+%22LEAD+CONSULTANT+%28POLICY+PLANNING%29+%26+OTHERS%22+recruitment+notification+pdf"
     },
     {
       "id": "bdd8cc34e83c",
