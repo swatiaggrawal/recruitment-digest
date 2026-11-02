@@ -1,8 +1,28 @@
 {
-  "last_updated": "2026-11-01T10:18:58.684931+00:00",
+  "last_updated": "2026-11-02T10:51:44.119271+00:00",
   "source_url": "https://employmentnews.gov.in/NewEmp/AllJobs.aspx?k=All",
-  "count": 12,
+  "count": 14,
   "jobs": [
+    {
+      "id": "5f089aa8ac56",
+      "issued_date": "02/11/2026",
+      "organisation": "SAINIK SCHOOL NAGROTA, SAINIK SCHOOLS SOCIETY, MINISTRY OF DEFENCE",
+      "post": "TGT (COMPUTER SCIENCE) & OTHERS",
+      "appointment_method": "Recruitment",
+      "last_date": "21/11/2026",
+      "department_url": "https://sainikschool.ncog.gov.in",
+      "search_url": "https://www.google.com/search?q=%22SAINIK+SCHOOL+NAGROTA%2C+SAINIK+SCHOOLS+SOCIETY%2C+MINISTRY+OF+DEFENCE%22+%22TGT+%28COMPUTER+SCIENCE%29+%26+OTHERS%22+recruitment+notification+pdf"
+    },
+    {
+      "id": "460e9362ab11",
+      "issued_date": "02/11/2026",
+      "organisation": "INSTITUTE OF HOTEL MANAGEMENT AND CATERING TECHNOLOGY, MINISTRY OF TOURISM",
+      "post": "LOWER DIVISION CLERK",
+      "appointment_method": "Recruitment",
+      "last_date": "30/11/2026",
+      "department_url": null,
+      "search_url": "https://www.google.com/search?q=%22INSTITUTE+OF+HOTEL+MANAGEMENT+AND+CATERING+TECHNOLOGY%2C+MINISTRY+OF+TOURISM%22+%22LOWER+DIVISION+CLERK%22+recruitment+notification+pdf"
+    },
     {
       "id": "8d5e128249a8",
       "issued_date": "12/09/2026",
